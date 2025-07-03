@@ -27,7 +27,7 @@ onAuthStateChanged(auth,async (user) => {
       <Routes>
         <Route path='/' element={<Home/>}/>
         <Route path='/login' element={<Login/>}/>
-        <Route path='/player/:id ' element={<Player/>}/>
+        <Route path='/player/:id' element={<Player/>}/>
       </Routes>
       
       
